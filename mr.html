@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desktop.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 60%;
+            margin: 40px auto;
+            border: 1px solid blueviolet;
+            position: relative;
+            text-align: center;
+            font-size: 20px;
+            background-color: coral;
+            
+        }
+        .container button{
+            margin-bottom: 20px;
+            background-color: #f6a40c;
+            font-size: 20px;
+        }
+        .container input{
+            border-radius: 6px;
+            border: none;
+            outline: none;
+        }
+        .container input::placeholder{
+            text-align: center;
+        }
+    </style>
+</head>
+<div class="container">
+    Frist Name: <br>
+    <input type="text" placeholder="frist name"><br>
+    Last Name: <br>
+    <input type="text" placeholder="last name"><br>
+    Gmail: <br>
+    <input type="email" placeholder="Gmail"> <br>
+    Phone Num: <br>
+    <input type="text" placeholder="phone num"><br>
+    Gender: <br>
+    <input type="radio" name="gender">Male 
+    <input type="radio" name="gender">Female 
+    <input type="radio" name="gender">Others <br><br>
+    <button>Send</button>
+
+
+</div>
+
+</body>
+</html>

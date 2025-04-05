@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    background-color: white;
+    height: auto;
+    width: 750px;
+    margin: 0 auto;
+}
+.container .header{
+    position: relative;
+}
+.header{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+.header.search{
+    margin-top: 20px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.header .search i{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.header .Menu-bar{
+    margin: 10px auto;
+}
+.Menu-bar a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+}
+.Menu-bar a:hover{
+    text-decoration: underline blue;
+    transition: 0.9s ease;
+    
+}
+.header .man-logo{
+    margin-top: 2px;
+    width: 15px;
+    margin-right: 35px;
+}
+.header .man-logo i{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.hrr{
+    margin-top: 10px;
+    width: 730px;
+    margin: 0 auto;
+    border: 1px solid rgb(29, 28, 28);
+}
+/*main tag start*/
+.menu{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.menu .first-div{
+    width: 200px;
+}
+.first-div h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.first-div h3{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.first-div p{
+    color: black;
+    font-size: 12px;
+    margin: 8px 0;
+}
+.first-div button{
+    margin-left: -1px;
+    background-color: black;
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+}
+.first-div button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+
+    outline: none;
+    font-size: 10px;
+}
+.menu .second-div{
+    width: 350px;
+    margin-left: 30px;
+}
+.menu .second-div img{
+    width: 260px;
+    height: 230px;
+}
+.menu .third-div{
+    width: 200px;
+}
+.menu .third-div span{
+    font-size: 8px;
+    margin-right: 10px;
+    text-align: end;
+}
+.menu .third-div  h1{
+    text-align: end;
+    font-size: 22px;
+}
+.menu .third-div .img{
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.menu .third-div .img img{
+    width: 120px;
+    height: 150px;
+    margin-left: 20px;
+    margin-left: 0;
+    display: flex;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+}
+.account p{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account a {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: black;
+}
+/*main tag end*/
+/*Fotter Start*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .rst-div{
+    width: 250px;
+    margin-left: 10px;
+    background-color: #f6a40c;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    height: 40px;
+    border: 1px solid #4a3103;
+}
+.rst-div h1{
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.rst-div p{
+    font-size: 8px;
+    text-decoration: underline;
+    text-align: center;
+}
+.footer .nst-div{
+    width: 250px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #4a3103;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nst-div button{
+    margin: auto;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+.nst-div button a{
+    text-decoration: none;
+    color: black;
+}
+.nst-div button a:hover{
+    text-decoration: underline;
+    color: rgb(0, 197, 82);
+}
+.footer .trd-div{
+    width: 250px;
+    border: 1px solid #4a3103;
+    background-color: #ff45f9;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trd-div button{
+    margin: auto;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+.trd-div button a{
+    text-decoration: none;
+    color: white;
+}
+.trd-div button a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.last-section{
+    width: 750px;
+    margin-top: 4px;
+    background-color: gray;
+    margin-left: 10px;
+}
+.last-section h2{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+/*Responsive Design */
+@media only screen and (max-width: 720px) {
+    .container, 
+    .footer, 
+    .last-section {
+        width: 95%;  
+        margin: 0 auto;
+    }
+    .header .man-logo , .search{
+        margin: 10px auto;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Menu-bar a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .Menu-bar a:hover{
+        background-color: #ff45f9;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .menu .first-div,
+    .menu .second-div,
+    .menu .third-div {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu .second-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu .third-div .img img {
+        width: 100px;
+        height: auto;
+        text-align: center;
+        margin: 10px 14px;
+    }
+
+    .account {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .account p, .account a {
+        margin: 5px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .rst-div,
+    .footer .nst-div,
+    .footer .trd-div {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    .last-section {
+        margin-left: 0;
+    }
+
+    .hrr {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .menu {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .menu .first-div,
+    .menu .second-div,
+    .menu .third-div {
+        width: 32%;
+    }
+
+    .menu .second-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu .third-div .img img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .footer .rst-div,
+    .footer .nst-div,
+    .footer .trd-div {
+        width: 32%;
+    }
+
+    .last-section {
+        width: 100%;
+        margin-left: 0;
+    }
+}
